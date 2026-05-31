@@ -1,0 +1,173 @@
+channels:
+  - name: AnalogueRadio
+    class: channels.internet_radio_analogue.InternetRadioChannel
+    button: A
+    auto_start: false
+    requires_internet: true
+    magic_colour: 0xFFF
+    image: images/radio.bmp
+    stream_url:
+      - http://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8
+      - http://as-hls-ww-live.akamaized.net/pool_74208725/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d96000.norewind.m3u8
+      - http://as-hls-ww-live.akamaized.net/pool_23461179/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d96000.norewind.m3u8
+
+  - name: LocalTunes
+    class: channels.local_mp3_player.LocalMP3Channel
+    auto_start: false
+    magic_colour: 0xF000
+    button: B
+    requires_internet: false
+    audio_dir: audio/ai_music
+    image: images/main_banner.bmp
+
+ # - name: TimeRadio
+ #   class: channels.time_radio.time_demo
+  #  button: C
+  #  auto_start: false
+  #  image: images/banner_image_4bpp.bmp
+  #  requires_internet: true
+ #   playback_device: VradioPlayer
+  #  magic_colour: 0x333
+
+  - name: AI_DJ
+    class: channels.local_mp3_player.LocalMP3Channel
+    auto_start: false
+    magic_colour: 0xF0ff
+    button: D
+    requires_internet: false
+    audio_dir: audio/ai_dj
+    image: images/main_banner.bmp
+
+
+
+  - name: AIPodCasts
+    class: channels.local_mp3_player.LocalMP3Channel
+    auto_start: false
+    magic_colour: 0xF000
+    button: E
+    requires_internet: false
+    image: images/oasis_banner.bmp
+    audio_dir: audio/ai_pods
+    filename: Oasis__Gen_Z.m4a
+
+  - name: TedLocalTunes
+    class: channels.local_mp3_player_ted.LocalMP3Channel
+    auto_start: false
+    magic_colour: 0x1F
+    button: F
+    requires_internet: false
+    image: images/sor_banner_draft.bmp
+    filename: theblame.mp3
+
+  - name: Local
+    class: channels.local.Local
+    magic_colour: 0xFFF
+    auto_start: false
+    button: L
+    requires_internet: false
+    audio_dir: audio/ai_seg
+    llm_model: "llama3.2:3b"
+    device_address:
+      - "F7:7D:A1:5F:95:D7"
+      - "FD:37:9B:E6:BA:0A"
+      - "C8:93:B5:41:F9:DA"
+    ble_scan_interval: 5.0
+    ble_reconnect_delay: 0.7
+    device_address:
+      - "F7:7D:A1:5F:95:D7"
+      - "FD:37:9B:E6:BA:0A"
+      - "C8:93:B5:41:F9:DA"
+    upbeat_songs:
+      - "upb3.wav"
+      - "upb2.wav"
+      - "upb1.wav"
+    relax_songs:
+      - "rel3.wav"
+      - "rel2.wav"
+      - "rel1.wav"
+ 
+  - name: Cloud
+    class: channels.cloud.Cloud
+    magic_colour: 0xFFF
+    auto_start: false
+    button: C
+    requires_internet: True
+    audio_dir: audio/ai_seg
+    cloud_model: "gpt-4.1"
+    tts_model: "gpt-4o-mini-tts"
+    device_address:
+      - "F7:7D:A1:5F:95:D7"
+      - "FD:37:9B:E6:BA:0A"
+      - "C8:93:B5:41:F9:DA"
+    ble_scan_interval: 5.0
+    ble_reconnect_delay: 0.7
+    upbeat_songs:
+      - "upb1.wav"
+      - "upb2.wav"
+      - "upb3.wav"
+    relax_songs:
+      - "rel1.wav"
+      - "rel2.wav"
+      - "rel3.wav"
+    chill_voice: "nova"
+    upbeat_voice: "fable"
+
+
+
+
+#  - name: ClassicRadio
+#    class: channels.internet_radio.InternetRadioChannel
+#    button: X
+#    auto_start: false
+#    magic_colour: 0x0FF
+#    requires_internet: true
+#    stream_url:
+#      - https://ycradio.stream.publicradio.org/ycradio.aac
+#      - https://cms.stream.publicradio.org/cms.aac
+#  - name: MorseCode
+#    class: channels.morse_code.MorseCode
+#    button: y
+#    auto_start: false
+#    requires_internet: false
+#    static: false
+#    text:
+#      - Welcome
+#      - To
+#      - Dublin
+#      - Maker 
+#  - name: Spotify
+#    class: channels.spotty.spotify_demo
+#    button: Z
+#    auto_start: false
+#    requires_internet: true
+#    playback_device: VradioPlayer
+#    magic_colour: 0xF000
+#    play_lists:
+#       - DPList
+#       - Ponk 
+
+      
+encoder_mapping:
+  encoder1: ChillRadio
+  encoder2: LocalTunes
+  type: 1 #1 = single button encoder... 
+
+pin_mapping:
+  enc_A_clk: 3 #GPIO3 (Physical Pin 5)
+  enc_A_dir: 4 #GPIO4 (Physical Pin 7)
+  enc_A_sw:  21 #GPIO21 (Physical Pin 40) (optional)
+
+  enc_B_clk: 14 #GPIO14 (Physical Pin 8) 
+  enc_B_dir: 15 #GPIO15 (Physical Pin 10)
+  enc_B_sw:  26 #GPIO26 (Physical Pin 37) (optional)
+
+settings:
+  volume: 90%
+  magic_com: /dev/ttyACM0
+  image: images/vradio_banner.bmp
+
+
+
+
+
+
