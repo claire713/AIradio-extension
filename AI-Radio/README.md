@@ -21,8 +21,7 @@ system.
 
 ## Audio and other assets (not included)
 
-Some of the assets used by the channels — including audio files (music and
-prerecorded messages) — are not included in this repository due to their size.
+Some of the assets used by the channels, including audio files are not included in this repository due to their size.
 The channels expect these files in the `channels/audio/` folder.
 
 ## Existing code
@@ -32,4 +31,4 @@ platform and was not developed as part of this work.
 
 ## Results
 
-The `results/` folder contains example logs and testing output.
+The `results/` folder contains example logs and testing outputs.
