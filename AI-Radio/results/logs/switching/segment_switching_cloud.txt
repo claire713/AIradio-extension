@@ -1,0 +1,182 @@
+Turning on Radio log 
+
+23:17:36 | [Supervisor] | Stopping channel: Cloud
+23:17:36 | [Supervisor] | Starting Channel: AnalogueRadio
+23:17:46 | [Supervisor | Quit signal received - stopping all channels
+23:19:03 | [Supervisor] | Logging initialised
+23:19:03 | [Supervisor] | Channel Loaded: AnalogueRadio mapped to key: A
+23:19:03 | [Supervisor] | Channel Loaded: LocalTunes mapped to key: B
+23:19:03 | [Supervisor] | Channel Loaded: AI_DJ mapped to key: D
+23:19:03 | [Supervisor] | Channel Loaded: AIPodCasts mapped to key: E
+23:19:03 | [Supervisor] | Channel Loaded: TedLocalTunes mapped to key: F
+23:19:08 | [Supervisor] | Channel Loaded: Local mapped to key: L
+23:19:08 | [Supervisor] | Channel Loaded: Cloud mapped to key: C
+23:19:19 | [Supervisor] | Starting Channel: Cloud
+23:19:20 | [Cloud] | Channel activated
+23:19:20 | [Cloud] | Cloid icon set 
+23:19:20 | [Cloud] | BLE scan cycle started
+23:19:25 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:19:26 | [Cloud] | Connected to BLE device
+23:19:27 | [Cloud] | Calling OPENAI LLM
+23:19:27 | [Cloud] | Intro audio started
+23:19:27 | [Cloud] | ffplay audio process started
+23:19:33 | [Cloud] | Intro audio bytes written to ffplay
+23:19:33 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:19:36 | [Cloud] | Sentence Queued for TTS
+23:19:36 | [Cloud] | movement status received: still
+23:19:36 | [Cloud] | Sentence Queued for TTS
+23:19:36 | [Cloud] | Sentence Queued for TTS
+23:19:37 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:19:37 | [Cloud] | Sentence Queued for TTS
+23:19:37 | [Cloud] | Sentence Queued for TTS
+23:19:39 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:19:48 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:19:52 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:19:53 | [Cloud] | Stop signal received
+23:19:53 | [Cloud] | Closing Audio process
+23:19:54 | [Cloud] | ffplay audio process stopped
+23:19:54 | [Cloud] | Stop command sent to TTS queue
+23:19:54 | [Cloud] | audio scheduling task cancelled
+23:19:56 | [Cloud] | BLE disconnect event received
+23:19:57 | [Cloud] | BLE Task cancelled
+23:19:57 | [Cloud] | icon cleared 
+23:19:57 | [Supervisor] | Stopping channel: Cloud
+23:19:57 | [Supervisor] | Starting Channel: AnalogueRadio
+23:20:07 | [Supervisor] | Stopping channel: AnalogueRadio
+23:20:07 | [Supervisor] | Starting Channel: Cloud
+23:20:08 | [Cloud] | Channel activated
+23:20:08 | [Cloud] | Cloid icon set 
+23:20:08 | [Cloud] | BLE scan cycle started
+23:20:13 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:20:14 | [Cloud] | Connected to BLE device
+23:20:14 | [Cloud] | Calling OPENAI LLM
+23:20:14 | [Cloud] | Intro audio started
+23:20:14 | [Cloud] | ffplay audio process started
+23:20:20 | [Cloud] | Intro audio bytes written to ffplay
+23:20:20 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:20:22 | [Cloud] | Sentence Queued for TTS
+23:20:22 | [Cloud] | Sentence Queued for TTS
+23:20:23 | [Cloud] | Sentence Queued for TTS
+23:20:23 | [Cloud] | Sentence Queued for TTS
+23:20:23 | [Cloud] | Sentence Queued for TTS
+23:20:23 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:20:24 | [Cloud] | movement status received: still while listening
+23:20:27 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:20:33 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:20:38 | [Cloud] | Stop signal received
+23:20:38 | [Cloud] | Closing Audio process
+23:20:38 | [Cloud] | ffplay audio process stopped
+23:20:38 | [Cloud] | Stop command sent to TTS queue
+23:20:38 | [Cloud] | audio scheduling task cancelled
+23:20:39 | [Cloud] | movement status received: still while listening
+23:20:40 | [Cloud] | BLE disconnect event received
+23:20:41 | [Cloud] | BLE Task cancelled
+23:20:41 | [Cloud] | icon cleared 
+23:20:41 | [Supervisor] | Stopping channel: Cloud
+23:20:41 | [Supervisor] | Starting Channel: AnalogueRadio
+23:20:53 | [Supervisor] | Stopping channel: AnalogueRadio
+23:20:53 | [Supervisor] | Starting Channel: Cloud
+23:20:53 | [Cloud] | Channel activated
+23:20:53 | [Cloud] | Cloid icon set 
+23:20:53 | [Cloud] | BLE scan cycle started
+23:20:58 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:20:59 | [Cloud] | Connected to BLE device
+23:20:59 | [Cloud] | Calling OPENAI LLM
+23:20:59 | [Cloud] | Intro audio started
+23:20:59 | [Cloud] | ffplay audio process started
+23:21:05 | [Cloud] | Intro audio bytes written to ffplay
+23:21:05 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:21:06 | [Cloud] | Sentence Queued for TTS
+23:21:07 | [Cloud] | Sentence Queued for TTS
+23:21:07 | [Cloud] | Sentence Queued for TTS
+23:21:07 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:21:07 | [Cloud] | Sentence Queued for TTS
+23:21:11 | [Cloud] | movement status received: still while listening
+23:21:11 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:21:20 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:21:23 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:21:27 | [Cloud] | Stop signal received
+23:21:27 | [Cloud] | Closing Audio process
+23:21:28 | [Cloud] | ffplay audio process stopped
+23:21:28 | [Cloud] | Stop command sent to TTS queue
+23:21:28 | [Cloud] | audio scheduling task cancelled
+23:21:29 | [Cloud] | BLE disconnect event received
+23:21:30 | [Cloud] | BLE Task cancelled
+23:21:30 | [Cloud] | icon cleared 
+23:21:30 | [Supervisor] | Stopping channel: Cloud
+23:21:30 | [Supervisor] | Starting Channel: AnalogueRadio
+23:21:37 | [Supervisor] | Stopping channel: AnalogueRadio
+23:21:37 | [Supervisor] | Starting Channel: Cloud
+23:21:37 | [Cloud] | Channel activated
+23:21:37 | [Cloud] | Cloid icon set 
+23:21:37 | [Cloud] | BLE scan cycle started
+23:21:42 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:21:43 | [Cloud] | Connected to BLE device
+23:21:43 | [Cloud] | Calling OPENAI LLM
+23:21:43 | [Cloud] | Intro audio started
+23:21:43 | [Cloud] | ffplay audio process started
+23:21:49 | [Cloud] | Intro audio bytes written to ffplay
+23:21:49 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:21:50 | [Cloud] | Sentence Queued for TTS
+23:21:51 | [Cloud] | Sentence Queued for TTS
+23:21:51 | [Cloud] | Sentence Queued for TTS
+23:21:51 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:21:51 | [Cloud] | Sentence Queued for TTS
+23:21:53 | [Cloud] | movement status received: still while listening
+23:21:57 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:22:06 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:22:11 | [Cloud] | Stop signal received
+23:22:11 | [Cloud] | Closing Audio process
+23:22:11 | [Cloud] | ffplay audio process stopped
+23:22:11 | [Cloud] | Stop command sent to TTS queue
+23:22:11 | [Cloud] | audio scheduling task cancelled
+23:22:13 | [Cloud] | BLE disconnect event received
+23:22:14 | [Cloud] | BLE Task cancelled
+23:22:14 | [Cloud] | icon cleared 
+23:22:14 | [Supervisor] | Stopping channel: Cloud
+23:22:14 | [Supervisor] | Starting Channel: AnalogueRadio
+23:22:55 | [Supervisor] | Stopping channel: AnalogueRadio
+23:22:55 | [Supervisor] | Starting Channel: Cloud
+23:22:55 | [Cloud] | Channel activated
+23:22:55 | [Cloud] | Cloid icon set 
+23:22:55 | [Cloud] | BLE scan cycle started
+23:23:00 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:23:02 | [Cloud] | Connected to BLE device
+23:23:02 | [Cloud] | Calling OPENAI LLM
+23:23:02 | [Cloud] | Intro audio started
+23:23:02 | [Cloud] | ffplay audio process started
+23:23:08 | [Cloud] | Intro audio bytes written to ffplay
+23:23:09 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:23:09 | [Cloud] | Sentence Queued for TTS
+23:23:10 | [Cloud] | Sentence Queued for TTS
+23:23:10 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:23:10 | [Cloud] | Sentence Queued for TTS
+23:23:10 | [Cloud] | Sentence Queued for TTS
+23:23:10 | [Cloud] | Sentence Queued for TTS
+23:23:11 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:23:12 | [Cloud] | movement status received: still while listening
+23:23:16 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:23:26 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:23:35 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:23:37 | [Cloud] | Playing song: rel1.wav
+23:23:48 | [Cloud] | Song complete, segment_done set
+23:23:48 | [Cloud] | Calling OPENAI LLM
+23:23:48 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:23:49 | [Cloud] | Sentence Queued for TTS
+23:23:49 | [Cloud] | Sentence Queued for TTS
+23:23:50 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:23:50 | [Cloud] | Sentence Queued for TTS
+23:23:50 | [Cloud] | Sentence Queued for TTS
+23:23:50 | [Cloud] | Sentence Queued for TTS
+23:23:50 | [Cloud] | Sentence Queued for TTS
+23:23:55 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:24:03 | [Cloud] | Stop signal received
+23:24:03 | [Cloud] | Closing Audio process
+23:24:03 | [Cloud] | ffplay audio process stopped
+23:24:03 | [Cloud] | Stop command sent to TTS queue
+23:24:03 | [Cloud] | audio scheduling task cancelled
+23:24:05 | [Cloud] | BLE disconnect event received
+23:24:06 | [Cloud] | BLE Task cancelled
+23:24:06 | [Cloud] | icon cleared 
+23:24:06 | [Supervisor] | Stopping channel: Cloud
+23:24:06 | [Supervisor] | Starting Channel: AnalogueRadio

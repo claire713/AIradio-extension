@@ -1,0 +1,182 @@
+Turning on Radio log 
+
+21:01:25 | [Supervisor] | Starting Channel: Local
+21:01:46 | [Supervisor] | Logging initialised
+21:01:46 | [Supervisor] | Channel Loaded: AnalogueRadio mapped to key: A
+21:01:46 | [Supervisor] | Channel Loaded: LocalTunes mapped to key: B
+21:01:46 | [Supervisor] | Channel Loaded: AI_DJ mapped to key: D
+21:01:46 | [Supervisor] | Channel Loaded: AIPodCasts mapped to key: E
+21:01:46 | [Supervisor] | Channel Loaded: TedLocalTunes mapped to key: F
+21:01:50 | [Supervisor] | Channel Loaded: Local mapped to key: L
+21:01:51 | [Supervisor] | Channel Loaded: Cloud mapped to key: C
+21:01:57 | [Supervisor] | Starting Channel: Local
+21:01:58 | [Local] | Channel activated
+21:01:58 | [Local] | House icon set 
+21:01:58 | [Local] | Starting BLE scanning task
+21:01:58 | [Local] | BLE scan cycle started
+21:02:03 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+21:02:04 | [Local] | Connected to BLE device
+21:02:04 | [Local] | Calling ollama LLM
+21:02:04 | [Local] | Intro audio started
+21:02:04 | [Local] | ffplay audio process started
+21:02:11 | [Local] | Intro audio bytes written to ffplay
+21:02:12 | HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+21:02:12 | [Local] | Sentence Queued for TTS
+21:02:14 | [Local] | movement status received: still
+21:02:14 | [Local] | Sentence Queued for TTS
+21:02:20 | [Local] | Sentence Queued for TTS
+21:02:24 | [Local] | Stop signal received
+21:02:24 | [Local] | Closing Audio process
+21:02:25 | [Local] | ffplay audio process stopped
+21:02:25 | [Local] | Stop command sent to TTS queue
+21:02:25 | [Local] | TTS stop sentinel received
+21:02:25 | [Local] | Broadcast ended for Patrick
+21:02:27 | [Local] | BLE disconnect event received
+21:02:28 | [Local] | BLE Task cancelled
+21:02:28 | [Local] | icon cleared 
+21:02:28 | [Supervisor] | Stopping channel: Local
+21:02:28 | [Supervisor] | Starting Channel: AnalogueRadio
+21:02:31 | [Supervisor] | Stopping channel: AnalogueRadio
+21:02:31 | [Supervisor] | Starting Channel: Local
+21:02:31 | [Local] | Channel activated
+21:02:31 | [Local] | House icon set 
+21:02:31 | [Local] | Starting BLE scanning task
+21:02:31 | [Local] | BLE scan cycle started
+21:02:36 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+21:02:37 | [Local] | Connected to BLE device
+21:02:37 | [Local] | Calling ollama LLM
+21:02:37 | [Local] | Intro audio started
+21:02:37 | [Local] | ffplay audio process started
+21:02:44 | [Local] | Intro audio bytes written to ffplay
+21:02:45 | HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+21:02:47 | [Local] | Sentence Queued for TTS
+21:02:47 | [Local] | movement status received: still
+21:02:53 | [Local] | Sentence Queued for TTS
+21:03:00 | [Local] | Sentence Queued for TTS
+21:03:00 | [Local] | Sentence Queued for TTS
+21:03:00 | [Local] | Sentence Queued for TTS
+21:03:00 | [Local] | Stop signal received
+21:03:00 | [Local] | Closing Audio process
+21:03:01 | [Local] | ffplay audio process stopped
+21:03:01 | [Local] | Stop command sent to TTS queue
+21:03:01 | [Local] | TTS stop sentinel received
+21:03:01 | [Local] | Broadcast ended for Patrick
+21:03:03 | [Local] | BLE disconnect event received
+21:03:04 | [Local] | BLE Task cancelled
+21:03:04 | [Local] | icon cleared 
+21:03:04 | [Supervisor] | Starting Channel: Local
+21:03:09 | [Supervisor] | Starting Channel: Local
+21:03:10 | [Local] | Channel activated
+21:03:10 | [Local] | House icon set 
+21:03:10 | [Local] | Starting BLE scanning task
+21:03:10 | [Local] | BLE scan cycle started
+21:03:15 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+21:03:15 | [Local] | Connected to BLE device
+21:03:15 | [Local] | Calling ollama LLM
+21:03:16 | [Local] | Intro audio started
+21:03:16 | [Local] | ffplay audio process started
+21:03:23 | [Local] | Intro audio bytes written to ffplay
+21:03:23 | HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+21:03:26 | [Local] | movement status received: still
+21:03:26 | [Local] | Sentence Queued for TTS
+21:03:30 | [Local] | Sentence Queued for TTS
+21:03:36 | [Local] | Sentence Queued for TTS
+21:03:36 | [Local] | Sentence Queued for TTS
+21:03:36 | [Local] | Sentence Queued for TTS
+21:03:37 | [Local] | Stop signal received
+21:03:37 | [Local] | Closing Audio process
+21:03:38 | [Local] | ffplay audio process stopped
+21:03:38 | [Local] | Stop command sent to TTS queue
+21:03:38 | [Local] | TTS stop sentinel received
+21:03:38 | [Local] | Broadcast ended for Patrick
+21:03:40 | [Local] | BLE disconnect event received
+21:03:41 | [Local] | BLE Task cancelled
+21:03:41 | [Local] | icon cleared 
+21:03:41 | [Supervisor] | Stopping channel: Local
+21:03:41 | [Supervisor] | Starting Channel: AnalogueRadio
+21:03:45 | [Supervisor] | Stopping channel: AnalogueRadio
+21:03:45 | [Supervisor] | Starting Channel: Local
+21:03:46 | [Local] | Channel activated
+21:03:46 | [Local] | House icon set 
+21:03:46 | [Local] | Starting BLE scanning task
+21:03:46 | [Local] | BLE scan cycle started
+21:03:51 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+21:03:51 | [Local] | Connected to BLE device
+21:03:51 | [Local] | Calling ollama LLM
+21:03:52 | [Local] | Intro audio started
+21:03:52 | [Local] | ffplay audio process started
+21:03:59 | [Local] | Intro audio bytes written to ffplay
+21:03:59 | HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+21:04:01 | [Local] | Sentence Queued for TTS
+21:04:02 | [Local] | movement status received: still
+21:04:04 | [Local] | Sentence Queued for TTS
+21:04:11 | [Local] | Sentence Queued for TTS
+21:04:13 | [Local] | Stop signal received
+21:04:13 | [Local] | Closing Audio process
+21:04:14 | [Local] | ffplay audio process stopped
+21:04:14 | [Local] | Stop command sent to TTS queue
+21:04:14 | [Local] | TTS stop sentinel received
+21:04:14 | [Local] | Broadcast ended for Patrick
+21:04:15 | [Local] | BLE disconnect event received
+21:04:16 | [Local] | BLE Task cancelled
+21:04:16 | [Local] | icon cleared 
+21:04:16 | [Supervisor] | Stopping channel: Local
+21:04:16 | [Supervisor] | Starting Channel: AnalogueRadio
+21:04:23 | [Supervisor] | Stopping channel: AnalogueRadio
+21:04:23 | [Supervisor] | Starting Channel: Local
+21:04:23 | [Local] | Channel activated
+21:04:23 | [Local] | House icon set 
+21:04:23 | [Local] | Starting BLE scanning task
+21:04:23 | [Local] | BLE scan cycle started
+21:04:28 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+21:04:28 | [Local] | Connected to BLE device
+21:04:29 | [Local] | Calling ollama LLM
+21:04:29 | [Local] | Intro audio started
+21:04:29 | [Local] | ffplay audio process started
+21:04:36 | [Local] | Intro audio bytes written to ffplay
+21:04:36 | HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+21:04:39 | [Local] | Sentence Queued for TTS
+21:04:39 | [Local] | movement status received: still
+21:04:41 | [Local] | Sentence Queued for TTS
+21:04:44 | [Local] | Sentence Queued for TTS
+21:04:49 | [Local] | Sentence Queued for TTS
+21:04:55 | [Local] | Stop signal received
+21:04:55 | [Local] | Closing Audio process
+21:04:55 | [Local] | ffplay audio process stopped
+21:04:55 | [Local] | Stop command sent to TTS queue
+21:04:55 | [Local] | TTS stop sentinel received
+21:04:55 | [Local] | Broadcast ended for Patrick
+21:04:57 | [Local] | BLE disconnect event received
+21:04:58 | [Local] | BLE Task cancelled
+21:04:58 | [Local] | icon cleared 
+21:04:58 | [Supervisor] | Stopping channel: Local
+21:04:58 | [Supervisor] | Starting Channel: AnalogueRadio
+21:05:05 | [Supervisor] | Stopping channel: AnalogueRadio
+21:05:05 | [Supervisor] | Starting Channel: Local
+21:05:05 | [Local] | Channel activated
+21:05:05 | [Local] | House icon set 
+21:05:05 | [Local] | Starting BLE scanning task
+21:05:05 | [Local] | BLE scan cycle started
+21:05:10 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+21:05:11 | [Local] | Connected to BLE device
+21:05:11 | [Local] | Calling ollama LLM
+21:05:11 | [Local] | Intro audio started
+21:05:11 | [Local] | ffplay audio process started
+21:05:18 | [Local] | Intro audio bytes written to ffplay
+21:05:19 | HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+21:05:21 | [Local] | Sentence Queued for TTS
+21:05:21 | [Local] | movement status received: still
+21:05:24 | [Local] | Sentence Queued for TTS
+21:05:30 | [Local] | Sentence Queued for TTS
+21:05:35 | [Local] | Sentence Queued for TTS
+21:05:37 | [Local] | Stop signal received
+21:05:37 | [Local] | Closing Audio process
+21:05:37 | [Local] | ffplay audio process stopped
+21:05:37 | [Local] | Stop command sent to TTS queue
+21:05:37 | [Local] | TTS stop sentinel received
+21:05:37 | [Local] | Broadcast ended for Patrick
+21:05:39 | [Local] | BLE disconnect event received
+21:05:40 | [Local] | BLE Task cancelled
+21:05:40 | [Local] | icon cleared 
+21:05:40 | [Supervisor] | Stopping channel: Local
+21:05:40 | [Supervisor] | Starting Channel: AnalogueRadio

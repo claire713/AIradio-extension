@@ -1,0 +1,263 @@
+Turning on Radio log 
+23:33:53 | [Supervisor] | Logging initialised
+23:33:53 | [Supervisor] | Channel Loaded: AnalogueRadio mapped to key: A
+23:33:53 | [Supervisor] | Channel Loaded: LocalTunes mapped to key: B
+23:33:53 | [Supervisor] | Channel Loaded: AI_DJ mapped to key: D
+23:33:53 | [Supervisor] | Channel Loaded: AIPodCasts mapped to key: E
+23:33:53 | [Supervisor] | Channel Loaded: TedLocalTunes mapped to key: F
+23:33:58 | [Supervisor] | Channel Loaded: Local mapped to key: L
+23:33:58 | [Supervisor] | Channel Loaded: Cloud mapped to key: C
+23:34:04 | [Supervisor] | Starting Channel: Local
+23:34:04 | [Local] | Channel activated
+23:34:04 | [Local] | House icon set 
+23:34:04 | [Local] | Starting BLE scanning task
+23:34:04 | [Local] | BLE scan cycle started
+23:34:09 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:34:10 | [Local] | Connected to BLE device
+23:34:10 | [Local] | Calling ollama LLM
+23:34:10 | [Local] | Intro audio started
+23:34:10 | [Local] | ffplay audio process started
+23:34:18 | [Local] | Intro audio bytes written to ffplay
+23:34:20 | [Local] | movement status received: still
+23:34:21 | HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+23:34:22 | [Local] | Sentence Queued for TTS
+23:34:24 | [Local] | Sentence Queued for TTS
+23:34:28 | [Local] | Sentence Queued for TTS
+23:34:30 | [Local] | movement status received: active
+23:34:31 | [Local] | Stop signal received
+23:34:31 | [Local] | Closing Audio process
+23:34:32 | [Local] | ffplay audio process stopped
+23:34:32 | [Local] | Stop command sent to TTS queue
+23:34:32 | [Local] | audio scheduling task cancelled
+23:34:32 | [Local] | Broadcast ended for Patrick
+23:34:33 | [Local] | BLE disconnect event received
+23:34:34 | [Local] | BLE Task cancelled
+23:34:34 | [Local] | icon cleared 
+23:34:34 | [Supervisor] | Starting Channel: Local
+23:34:39 | [Supervisor] | Starting Channel: Local
+23:34:39 | [Local] | Channel activated
+23:34:39 | [Local] | House icon set 
+23:34:39 | [Local] | Starting BLE scanning task
+23:34:39 | [Local] | BLE scan cycle started
+23:34:44 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:34:44 | [Local] | Connected to BLE device
+23:34:45 | [Local] | Calling ollama LLM
+23:34:45 | [Local] | Intro audio started
+23:34:45 | [Local] | ffplay audio process started
+23:34:52 | [Local] | Intro audio bytes written to ffplay
+23:34:55 | [Local] | movement status received: still
+23:35:02 | [Local] | Stop signal received
+23:35:02 | [Local] | Closing Audio process
+23:35:02 | [Local] | ffplay audio process stopped
+23:35:02 | [Local] | Stop command sent to TTS queue
+23:35:02 | [Local] | audio scheduling task cancelled
+23:35:02 | [Local] | Broadcast ended for Patrick
+23:35:04 | [Local] | BLE disconnect event received
+23:35:05 | [Local] | BLE Task cancelled
+23:35:05 | [Local] | icon cleared 
+23:35:05 | [Supervisor] | Stopping channel: Local
+23:35:05 | [Supervisor] | Starting Channel: Cloud
+23:35:06 | [Cloud] | Channel activated
+23:35:06 | [Cloud] | Cloid icon set 
+23:35:06 | [Cloud] | BLE scan cycle started
+23:35:11 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:35:11 | [Cloud] | Connected to BLE device
+23:35:12 | [Cloud] | Calling OPENAI LLM
+23:35:12 | [Cloud] | Intro audio started
+23:35:12 | [Cloud] | ffplay audio process started
+23:35:18 | [Cloud] | Intro audio bytes written to ffplay
+23:35:18 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:35:19 | [Cloud] | Sentence Queued for TTS
+23:35:19 | [Cloud] | Sentence Queued for TTS
+23:35:19 | [Cloud] | Sentence Queued for TTS
+23:35:19 | [Cloud] | Sentence Queued for TTS
+23:35:19 | [Cloud] | Sentence Queued for TTS
+23:35:20 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:35:22 | [Cloud] | movement status received: still
+23:35:25 | [Cloud] | Stop signal received
+23:35:25 | [Cloud] | Closing Audio process
+23:35:26 | [Cloud] | ffplay audio process stopped
+23:35:26 | [Cloud] | Stop command sent to TTS queue
+23:35:26 | [Cloud] | Broadcast ended for Patrick
+23:35:26 | [Cloud] | audio scheduling task cancelled
+23:35:27 | [Cloud] | BLE disconnect event received
+23:35:28 | [Cloud] | BLE Task cancelled
+23:35:28 | [Cloud] | icon cleared 
+23:35:28 | [Supervisor] | Stopping channel: Cloud
+23:35:28 | [Supervisor] | Starting Channel: Local
+23:35:29 | [Local] | Channel activated
+23:35:29 | [Local] | House icon set 
+23:35:29 | [Local] | Starting BLE scanning task
+23:35:29 | [Local] | BLE scan cycle started
+23:35:34 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:35:34 | [Local] | Connected to BLE device
+23:35:34 | [Local] | Calling ollama LLM
+23:35:34 | [Local] | Intro audio started
+23:35:34 | [Local] | ffplay audio process started
+23:35:42 | [Local] | Intro audio bytes written to ffplay
+23:35:44 | [Local] | movement status received: still
+23:35:53 | HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+23:35:54 | [Local] | Sentence Queued for TTS
+23:35:57 | [Local] | Sentence Queued for TTS
+23:35:58 | [Local] | Stop signal received
+23:35:58 | [Local] | Closing Audio process
+23:35:58 | [Local] | ffplay audio process stopped
+23:35:58 | [Local] | Stop command sent to TTS queue
+23:35:58 | [Local] | audio scheduling task cancelled
+23:35:58 | [Local] | Broadcast ended for Patrick
+23:36:00 | [Local] | BLE disconnect event received
+23:36:01 | [Local] | BLE Task cancelled
+23:36:01 | [Local] | icon cleared 
+23:36:01 | [Supervisor] | Stopping channel: Local
+23:36:01 | [Supervisor] | Starting Channel: Cloud
+23:36:02 | [Cloud] | Channel activated
+23:36:02 | [Cloud] | Cloid icon set 
+23:36:02 | [Cloud] | BLE scan cycle started
+23:36:07 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:36:07 | [Cloud] | Connected to BLE device
+23:36:07 | [Cloud] | Calling OPENAI LLM
+23:36:07 | [Cloud] | Intro audio started
+23:36:07 | [Cloud] | ffplay audio process started
+23:36:13 | [Cloud] | Intro audio bytes written to ffplay
+23:36:13 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:36:14 | [Cloud] | Sentence Queued for TTS
+23:36:15 | [Cloud] | Sentence Queued for TTS
+23:36:15 | [Cloud] | Sentence Queued for TTS
+23:36:15 | [Cloud] | Sentence Queued for TTS
+23:36:15 | [Cloud] | Sentence Queued for TTS
+23:36:15 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:36:19 | [Cloud] | movement status received: still while listening
+23:36:20 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:36:26 | [Cloud] | Stop signal received
+23:36:26 | [Cloud] | Closing Audio process
+23:36:27 | [Cloud] | ffplay audio process stopped
+23:36:27 | [Cloud] | Stop command sent to TTS queue
+23:36:27 | [Cloud] | Broadcast ended for Patrick
+23:36:27 | [Cloud] | audio scheduling task cancelled
+23:36:29 | [Cloud] | BLE disconnect event received
+23:36:30 | [Cloud] | BLE Task cancelled
+23:36:30 | [Cloud] | icon cleared 
+23:36:30 | [Supervisor] | Stopping channel: Cloud
+23:36:30 | [Supervisor] | Starting Channel: Local
+23:36:30 | [Local] | Channel activated
+23:36:30 | [Local] | House icon set 
+23:36:30 | [Local] | Starting BLE scanning task
+23:36:30 | [Local] | BLE scan cycle started
+23:36:36 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:36:36 | [Local] | Connected to BLE device
+23:36:36 | [Local] | Calling ollama LLM
+23:36:36 | [Local] | Intro audio started
+23:36:36 | [Local] | ffplay audio process started
+23:36:43 | [Local] | Intro audio bytes written to ffplay
+23:36:44 | HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+23:36:45 | [Local] | Sentence Queued for TTS
+23:36:46 | [Local] | movement status received: still
+23:36:47 | [Local] | Sentence Queued for TTS
+23:36:56 | [Local] | Sentence Queued for TTS
+23:37:00 | [Local] | Sentence Queued for TTS
+23:37:00 | [Local] | Sentence Queued for TTS
+23:37:00 | [Local] | Sentence Queued for TTS
+23:37:04 | [Local] | Sentence Queued for TTS
+23:37:09 | [Local] | Sentence Queued for TTS
+23:37:16 | [Local] | Sentence Queued for TTS
+23:37:18 | [Local] | Playing song: rel1.wav
+23:37:25 | [Local] | Song complete, segment_done set
+23:37:25 | [Local] | Calling ollama LLM
+23:37:28 | [Local] | Stop signal received
+23:37:28 | [Local] | Closing Audio process
+23:37:28 | [Local] | ffplay audio process stopped
+23:37:28 | [Local] | Stop command sent to TTS queue
+23:37:28 | [Local] | audio scheduling task cancelled
+23:37:28 | [Local] | Broadcast ended for Patrick
+23:37:30 | [Local] | BLE disconnect event received
+23:37:31 | [Local] | BLE Task cancelled
+23:37:31 | [Local] | icon cleared 
+23:37:31 | [Supervisor] | Stopping channel: Local
+23:37:31 | [Supervisor] | Starting Channel: Cloud
+23:37:32 | [Cloud] | Channel activated
+23:37:32 | [Cloud] | Cloid icon set 
+23:37:32 | [Cloud] | BLE scan cycle started
+23:37:37 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:37:38 | [Cloud] | Connected to BLE device
+23:37:38 | [Cloud] | Calling OPENAI LLM
+23:37:38 | [Cloud] | Intro audio started
+23:37:38 | [Cloud] | ffplay audio process started
+23:37:44 | [Cloud] | Intro audio bytes written to ffplay
+23:37:44 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:37:45 | [Cloud] | Sentence Queued for TTS
+23:37:45 | [Cloud] | Sentence Queued for TTS
+23:37:45 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:37:45 | [Cloud] | Sentence Queued for TTS
+23:37:45 | [Cloud] | Sentence Queued for TTS
+23:37:45 | [Cloud] | Sentence Queued for TTS
+23:37:45 | [Cloud] | Sentence Queued for TTS
+23:37:46 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:37:48 | [Cloud] | movement status received: still while listening
+23:37:52 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:37:59 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:38:04 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:38:11 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:38:15 | [Cloud] | Playing song: rel1.wav
+23:38:25 | [Cloud] | Song complete, segment_done set
+23:38:25 | [Cloud] | Calling OPENAI LLM
+23:38:26 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:38:27 | [Cloud] | Sentence Queued for TTS
+23:38:27 | [Cloud] | Sentence Queued for TTS
+23:38:27 | [Cloud] | Sentence Queued for TTS
+23:38:27 | [Cloud] | Sentence Queued for TTS
+23:38:28 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:38:32 | [Cloud] | Stop signal received
+23:38:32 | [Cloud] | Closing Audio process
+23:38:32 | [Cloud] | ffplay audio process stopped
+23:38:32 | [Cloud] | Stop command sent to TTS queue
+23:38:32 | [Cloud] | audio scheduling task cancelled
+23:38:34 | [Cloud] | BLE disconnect event received
+23:38:35 | [Cloud] | BLE Task cancelled
+23:38:35 | [Cloud] | icon cleared 
+23:38:35 | [Supervisor] | Stopping channel: Cloud
+23:38:35 | [Supervisor] | Starting Channel: Local
+23:38:35 | [Local] | Channel activated
+23:38:35 | [Local] | House icon set 
+23:38:35 | [Local] | Starting BLE scanning task
+23:38:35 | [Local] | BLE scan cycle started
+23:38:40 | [Local] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:38:41 | [Local] | Connected to BLE device
+23:38:41 | [Local] | Calling ollama LLM
+23:38:41 | [Local] | Intro audio started
+23:38:41 | [Local] | ffplay audio process started
+23:38:48 | [Local] | Intro audio bytes written to ffplay
+23:38:49 | [Local] | BLE disconnect event received
+23:38:49 | [Local] | ffplay audio process stopped
+23:38:49 | [Local] | TTS stop sentinel received
+23:38:49 | [Local] | Broadcast ended for Patrick
+23:38:50 | [Local] | Returnig the BLE scanning : time since disconnect : 1203.83ms
+23:38:50 | [Local] | BLE scan cycle started
+23:38:55 | [Local] | BLE scan cycle started
+23:38:59 | [Local] | Stop signal received
+23:38:59 | [Local] | Closing Audio process
+23:38:59 | [Local] | Stop command sent to TTS queue
+23:38:59 | [Local] | BLE Task cancelled
+23:38:59 | [Local] | icon cleared 
+23:38:59 | [Supervisor] | Stopping channel: Local
+23:38:59 | [Supervisor] | Starting Channel: Cloud
+23:38:59 | [Cloud] | Channel activated
+23:38:59 | [Cloud] | Cloid icon set 
+23:38:59 | [Cloud] | BLE scan cycle started
+23:39:04 | [Cloud] | Stop signal received
+23:39:04 | [Cloud] | Closing Audio process
+23:39:04 | [Cloud] | Stop command sent to TTS queue
+23:39:04 | [Cloud] | BLE Task cancelled
+23:39:04 | [Cloud] | icon cleared 
+23:39:04 | [Supervisor] | Stopping channel: Cloud
+23:39:04 | [Supervisor] | Starting Channel: Local
+23:39:04 | [Local] | Channel activated
+23:39:04 | [Local] | House icon set 
+23:39:04 | [Local] | Starting BLE scanning task
+23:39:04 | [Local] | BLE scan cycle started
+23:39:08 | [Local] | Stop signal received
+23:39:08 | [Local] | Closing Audio process
+23:39:08 | [Local] | Stop command sent to TTS queue
+23:39:08 | [Local] | BLE Task cancelled
+23:39:08 | [Local] | icon cleared 
+23:39:08 | [Supervisor] | Stopping channel: Local
+23:39:08 | [Supervisor] | Starting Channel: TedLocalTunes

@@ -1,0 +1,81 @@
+Turning on Radio log 
+
+0:46:08 | [Supervisor] | Channel Loaded: AnalogueRadio mapped to key: A
+20:46:08 | [Supervisor] | Channel Loaded: LocalTunes mapped to key: B
+20:46:08 | [Supervisor] | Channel Loaded: AI_DJ mapped to key: D
+20:46:08 | [Supervisor] | Channel Loaded: AIPodCasts mapped to key: E
+20:46:08 | [Supervisor] | Channel Loaded: TedLocalTunes mapped to key: F
+20:46:13 | [Supervisor] | Channel Loaded: Local mapped to key: L
+20:46:13 | [Supervisor] | Channel Loaded: Cloud mapped to key: C
+20:46:18 | [Supervisor] | Starting Channel: Local
+20:46:18 | [Local] | Channel activated
+20:46:18 | [Local] | House icon set 
+20:46:18 | [Local] | Starting BLE scanning task
+20:46:18 | [Local] | BLE scan cycle started
+20:46:19 | [Local] | Stop signal received
+20:46:19 | [Local] | Closing Audio process
+20:46:19 | [Local] | BLE Task cancelled
+20:46:19 | [Local] | icon cleared 
+20:46:19 | [Supervisor] | Stopping channel: Local
+20:46:19 | [Supervisor] | Starting Channel: AnalogueRadio
+20:46:23 | [Supervisor] | Stopping channel: AnalogueRadio
+20:46:23 | [Supervisor] | Starting Channel: Local
+20:46:24 | [Local] | Channel activated
+20:46:24 | [Local] | House icon set 
+20:46:24 | [Local] | Starting BLE scanning task
+20:46:24 | [Local] | BLE scan cycle started
+20:46:25 | [Local] | Stop signal received
+20:46:25 | [Local] | Closing Audio process
+20:46:25 | [Local] | BLE Task cancelled
+20:46:25 | [Local] | icon cleared 
+20:46:25 | [Supervisor] | Stopping channel: Local
+20:46:25 | [Supervisor] | Starting Channel: AnalogueRadio
+20:46:29 | [Supervisor] | Stopping channel: AnalogueRadio
+20:46:29 | [Supervisor] | Starting Channel: Local
+20:46:30 | [Local] | Channel activated
+20:46:30 | [Local] | House icon set 
+20:46:30 | [Local] | Starting BLE scanning task
+20:46:30 | [Local] | BLE scan cycle started
+20:46:31 | [Local] | Stop signal received
+20:46:31 | [Local] | Closing Audio process
+20:46:31 | [Local] | BLE Task cancelled
+20:46:31 | [Local] | icon cleared 
+20:46:31 | [Supervisor] | Stopping channel: Local
+20:46:31 | [Supervisor] | Starting Channel: AnalogueRadio
+20:46:34 | [Supervisor] | Stopping channel: AnalogueRadio
+20:46:34 | [Supervisor] | Starting Channel: Local
+20:46:35 | [Local] | Channel activated
+20:46:35 | [Local] | House icon set 
+20:46:35 | [Local] | Starting BLE scanning task
+20:46:35 | [Local] | BLE scan cycle started
+20:46:36 | [Local] | Stop signal received
+20:46:36 | [Local] | Closing Audio process
+20:46:36 | [Local] | BLE Task cancelled
+20:46:36 | [Local] | icon cleared 
+20:46:36 | [Supervisor] | Stopping channel: Local
+20:46:36 | [Supervisor] | Starting Channel: AnalogueRadio
+20:46:40 | [Supervisor] | Stopping channel: AnalogueRadio
+20:46:40 | [Supervisor] | Starting Channel: Local
+20:46:40 | [Local] | Channel activated
+20:46:40 | [Local] | House icon set 
+20:46:40 | [Local] | Starting BLE scanning task
+20:46:40 | [Local] | BLE scan cycle started
+20:46:40 | [Local] | Stop signal received
+20:46:40 | [Local] | Closing Audio process
+20:46:41 | [Local] | BLE Task cancelled
+20:46:41 | [Local] | icon cleared 
+20:46:41 | [Supervisor] | Stopping channel: Local
+20:46:41 | [Supervisor] | Starting Channel: AnalogueRadio
+20:46:47 | [Supervisor] | Stopping channel: AnalogueRadio
+20:46:47 | [Supervisor] | Starting Channel: Local
+20:46:47 | [Local] | Channel activated
+20:46:47 | [Local] | House icon set 
+20:46:47 | [Local] | Starting BLE scanning task
+20:46:47 | [Local] | BLE scan cycle started
+20:46:48 | [Local] | Stop signal received
+20:46:48 | [Local] | Closing Audio process
+20:46:48 | [Local] | BLE Task cancelled
+20:46:48 | [Local] | icon cleared 
+20:46:48 | [Supervisor] | Stopping channel: Local
+20:46:48 | [Supervisor] | Starting Channel: AnalogueRadio
+20:46:58 | [Supervisor | Quit signal received - stopping all channels

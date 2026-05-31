@@ -1,0 +1,130 @@
+Turning on Radio log 
+
+23:15:28 | [Supervisor] | Logging initialised
+23:15:28 | [Supervisor] | Channel Loaded: AnalogueRadio mapped to key: A
+23:15:28 | [Supervisor] | Channel Loaded: LocalTunes mapped to key: B
+23:15:28 | [Supervisor] | Channel Loaded: AI_DJ mapped to key: D
+23:15:28 | [Supervisor] | Channel Loaded: AIPodCasts mapped to key: E
+23:15:28 | [Supervisor] | Channel Loaded: TedLocalTunes mapped to key: F
+23:15:33 | [Supervisor] | Channel Loaded: Local mapped to key: L
+23:15:33 | [Supervisor] | Channel Loaded: Cloud mapped to key: C
+23:15:39 | [Supervisor] | Starting Channel: Cloud
+23:15:39 | [Cloud] | Channel activated
+23:15:39 | [Cloud] | Cloid icon set 
+23:15:39 | [Cloud] | BLE scan cycle started
+23:15:44 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:15:45 | [Cloud] | Connected to BLE device
+23:15:45 | [Cloud] | Calling OPENAI LLM
+23:15:46 | [Cloud] | Intro audio started
+23:15:46 | [Cloud] | ffplay audio process started
+23:15:51 | [Cloud] | Intro audio bytes written to ffplay
+23:15:51 | [Cloud] | Stop signal received
+23:15:51 | [Cloud] | Closing Audio process
+23:15:52 | [Cloud] | ffplay audio process stopped
+23:15:52 | [Cloud] | Stop command sent to TTS queue
+23:15:52 | [Cloud] | audio scheduling task cancelled
+23:15:52 | [Cloud] | Broadcast ended for Patrick
+23:15:54 | [Cloud] | BLE disconnect event received
+23:15:55 | [Cloud] | BLE Task cancelled
+23:15:55 | [Cloud] | icon cleared 
+23:15:55 | [Supervisor] | Stopping channel: Cloud
+23:15:55 | [Supervisor] | Starting Channel: AnalogueRadio
+23:16:07 | [Supervisor] | Stopping channel: AnalogueRadio
+23:16:07 | [Supervisor] | Starting Channel: Cloud
+23:16:07 | [Cloud] | Channel activated
+23:16:07 | [Cloud] | Cloid icon set 
+23:16:07 | [Cloud] | BLE scan cycle started
+23:16:12 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:16:12 | [Cloud] | Connected to BLE device
+23:16:13 | [Cloud] | Calling OPENAI LLM
+23:16:13 | [Cloud] | Intro audio started
+23:16:13 | [Cloud] | ffplay audio process started
+23:16:18 | [Cloud] | Intro audio bytes written to ffplay
+23:16:19 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:16:20 | [Cloud] | Stop signal received
+23:16:20 | [Cloud] | Closing Audio process
+23:16:20 | [Cloud] | ffplay audio process stopped
+23:16:20 | [Cloud] | Stop command sent to TTS queue
+23:16:20 | [Cloud] | OPENAI LLM generation stopped
+23:16:20 | [Cloud] | audio scheduling task cancelled
+23:16:22 | [Cloud] | BLE disconnect event received
+23:16:23 | [Cloud] | BLE Task cancelled
+23:16:23 | [Cloud] | icon cleared 
+23:16:23 | [Supervisor] | Stopping channel: Cloud
+23:16:23 | [Supervisor] | Starting Channel: AnalogueRadio
+23:16:29 | [Supervisor] | Stopping channel: AnalogueRadio
+23:16:29 | [Supervisor] | Starting Channel: Cloud
+23:16:29 | [Cloud] | Channel activated
+23:16:29 | [Cloud] | Cloid icon set 
+23:16:29 | [Cloud] | BLE scan cycle started
+23:16:34 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:16:35 | [Cloud] | Connected to BLE device
+23:16:35 | [Cloud] | Calling OPENAI LLM
+23:16:35 | [Cloud] | Intro audio started
+23:16:35 | [Cloud] | ffplay audio process started
+23:16:41 | [Cloud] | Intro audio bytes written to ffplay
+23:16:41 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:16:43 | [Cloud] | Stop signal received
+23:16:43 | [Cloud] | Closing Audio process
+23:16:43 | [Cloud] | ffplay audio process stopped
+23:16:43 | [Cloud] | Stop command sent to TTS queue
+23:16:43 | [Cloud] | audio scheduling task cancelled
+23:16:43 | [Cloud] | Broadcast ended for Patrick
+23:16:45 | [Cloud] | movement status received: still
+23:16:45 | [Cloud] | BLE disconnect event received
+23:16:46 | [Cloud] | BLE Task cancelled
+23:16:46 | [Cloud] | icon cleared 
+23:16:46 | [Supervisor] | Stopping channel: Cloud
+23:16:46 | [Supervisor] | Starting Channel: AnalogueRadio
+23:16:52 | [Supervisor] | Stopping channel: AnalogueRadio
+23:16:52 | [Supervisor] | Starting Channel: Cloud
+23:16:53 | [Cloud] | Channel activated
+23:16:53 | [Cloud] | Cloid icon set 
+23:16:53 | [Cloud] | BLE scan cycle started
+23:16:58 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:16:58 | [Cloud] | Connected to BLE device
+23:16:58 | [Cloud] | Calling OPENAI LLM
+23:16:58 | [Cloud] | Intro audio started
+23:16:58 | [Cloud] | ffplay audio process started
+23:17:04 | [Cloud] | Intro audio bytes written to ffplay
+23:17:05 | [Cloud] | Stop signal received
+23:17:05 | [Cloud] | Closing Audio process
+23:17:06 | [Cloud] | ffplay audio process stopped
+23:17:06 | [Cloud] | Stop command sent to TTS queue
+23:17:06 | [Cloud] | audio scheduling task cancelled
+23:17:06 | [Cloud] | Broadcast ended for Patrick
+23:17:07 | [Cloud] | BLE disconnect event received
+23:17:08 | [Cloud] | BLE Task cancelled
+23:17:08 | [Cloud] | icon cleared 
+23:17:08 | [Supervisor] | Stopping channel: Cloud
+23:17:08 | [Supervisor] | Starting Channel: AnalogueRadio
+23:17:15 | [Supervisor] | Stopping channel: AnalogueRadio
+23:17:15 | [Supervisor] | Starting Channel: Cloud
+23:17:15 | [Cloud] | Channel activated
+23:17:15 | [Cloud] | Cloid icon set 
+23:17:15 | [Cloud] | BLE scan cycle started
+23:17:20 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+23:17:21 | [Cloud] | Connected to BLE device
+23:17:21 | [Cloud] | Calling OPENAI LLM
+23:17:21 | [Cloud] | Intro audio started
+23:17:21 | [Cloud] | ffplay audio process started
+23:17:27 | [Cloud] | Intro audio bytes written to ffplay
+23:17:28 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+23:17:29 | [Cloud] | Sentence Queued for TTS
+23:17:29 | [Cloud] | Sentence Queued for TTS
+23:17:30 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+23:17:30 | [Cloud] | Sentence Queued for TTS
+23:17:30 | [Cloud] | Sentence Queued for TTS
+23:17:32 | [Cloud] | movement status received: still while listening
+23:17:33 | [Cloud] | Stop signal received
+23:17:33 | [Cloud] | Closing Audio process
+23:17:34 | [Cloud] | ffplay audio process stopped
+23:17:34 | [Cloud] | Stop command sent to TTS queue
+23:17:34 | [Cloud] | Broadcast ended for Patrick
+23:17:34 | [Cloud] | audio scheduling task cancelled
+23:17:35 | [Cloud] | BLE disconnect event received
+23:17:36 | [Cloud] | BLE Task cancelled
+23:17:36 | [Cloud] | icon cleared 
+23:17:36 | [Supervisor] | Stopping channel: Cloud
+23:17:36 | [Supervisor] | Starting Channel: AnalogueRadio
+23:17:46 | [Supervisor | Quit signal received - stopping all channels

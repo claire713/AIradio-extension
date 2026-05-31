@@ -1,0 +1,121 @@
+Turning on Radio log 
+
+00:23:58 | [Supervisor] | Starting Channel: Cloud
+00:23:58 | [Cloud] | Channel activated
+00:23:58 | [Cloud] | Cloid icon set 
+00:23:58 | [Cloud] | BLE scan cycle started
+00:24:03 | [Cloud] | BLE scan cycle started
+00:24:08 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+00:24:10 | [Cloud] | Connected to BLE device
+00:24:10 | [Cloud] | Calling OPENAI LLM
+00:24:10 | [Cloud] | Intro audio started
+00:24:10 | [Cloud] | ffplay audio process started
+00:24:16 | [Cloud] | Intro audio bytes written to ffplay
+00:24:17 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+00:24:18 | [Cloud] | Sentence Queued for TTS
+00:24:18 | [Cloud] | Sentence Queued for TTS
+00:24:18 | [Cloud] | Sentence Queued for TTS
+00:24:19 | [Cloud] | Sentence Queued for TTS
+00:24:19 | [Cloud] | movement status received: still
+00:24:20 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:24:22 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:24:30 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:24:32 | [Cloud] | BLE disconnect event received
+00:24:33 | [Cloud] | ffplay audio process stopped
+00:24:33 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:24:33 | [Cloud] | TTS stop sentinel received
+00:24:33 | [Cloud] | Broadcast ended for Patrick
+00:24:34 | [Cloud] | Returnig the BLE scanning : time since disconnect : 1235.82ms
+00:24:34 | [Cloud] | BLE scan cycle started
+00:24:39 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+00:24:39 | [Cloud] | Connected to BLE device
+00:24:39 | [Cloud] | Calling OPENAI LLM
+00:24:39 | [Cloud] | Intro audio started
+00:24:39 | [Cloud] | ffplay audio process started
+00:24:45 | [Cloud] | Intro audio bytes written to ffplay
+00:24:46 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+00:24:47 | [Cloud] | Sentence Queued for TTS
+00:24:47 | [Cloud] | Sentence Queued for TTS
+00:24:47 | [Cloud] | Sentence Queued for TTS
+00:24:47 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:24:48 | [Cloud] | Sentence Queued for TTS
+00:24:48 | [Cloud] | Sentence Queued for TTS
+00:24:50 | [Cloud] | movement status received: still while listening
+00:24:50 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:24:59 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:25:02 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:25:06 | [Cloud] | BLE disconnect event received
+00:25:06 | [Cloud] | ffplay audio process stopped
+00:25:06 | [Cloud] | TTS stop sentinel received
+00:25:06 | [Cloud] | Broadcast ended for Patrick
+00:25:07 | [Cloud] | Returnig the BLE scanning : time since disconnect : 1208.06ms
+00:25:07 | [Cloud] | BLE scan cycle started
+00:25:12 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+00:25:13 | [Cloud] | Connected to BLE device
+00:25:13 | [Cloud] | Calling OPENAI LLM
+00:25:13 | [Cloud] | Intro audio started
+00:25:13 | [Cloud] | ffplay audio process started
+00:25:19 | [Cloud] | Intro audio bytes written to ffplay
+00:25:20 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+00:25:21 | [Cloud] | Sentence Queued for TTS
+00:25:21 | [Cloud] | Sentence Queued for TTS
+00:25:21 | [Cloud] | Sentence Queued for TTS
+00:25:21 | [Cloud] | Sentence Queued for TTS
+00:25:22 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:25:23 | [Cloud] | movement status received: still while listening
+00:25:25 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:25:33 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:25:40 | [Cloud] | BLE disconnect event received
+00:25:40 | [Cloud] | ffplay audio process stopped
+00:25:40 | [Cloud] | TTS stop sentinel received
+00:25:40 | [Cloud] | Broadcast ended for Patrick
+00:25:41 | [Cloud] | Returnig the BLE scanning : time since disconnect : 1204.06ms
+00:25:41 | [Cloud] | BLE scan cycle started
+00:25:46 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+00:25:47 | [Cloud] | Connected to BLE device
+00:25:47 | [Cloud] | Calling OPENAI LLM
+00:25:47 | [Cloud] | Intro audio started
+00:25:47 | [Cloud] | ffplay audio process started
+00:25:53 | [Cloud] | Intro audio bytes written to ffplay
+00:25:54 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+00:25:56 | [Cloud] | Sentence Queued for TTS
+00:25:56 | [Cloud] | Sentence Queued for TTS
+00:25:56 | [Cloud] | Sentence Queued for TTS
+00:25:56 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:25:57 | [Cloud] | movement status received: still while listening
+00:26:02 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:26:11 | [Cloud] | BLE disconnect event received
+00:26:11 | [Cloud] | ffplay audio process stopped
+00:26:11 | [Cloud] | TTS stop sentinel received
+00:26:11 | [Cloud] | Broadcast ended for Patrick
+00:26:12 | [Cloud] | Returnig the BLE scanning : time since disconnect : 1204.46ms
+00:26:12 | [Cloud] | BLE scan cycle started
+00:26:17 | [Cloud] | BLE scan cycle started
+00:26:22 | [Cloud] | BLE Device found: BBC micro:bit [tivap] - C8:93:B5:41:F9:DA
+00:26:22 | [Cloud] | Connected to BLE device
+00:26:22 | [Cloud] | Calling OPENAI LLM
+00:26:22 | [Cloud] | Intro audio started
+00:26:22 | [Cloud] | ffplay audio process started
+00:26:28 | [Cloud] | Intro audio bytes written to ffplay
+00:26:29 | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+00:26:31 | [Cloud] | Sentence Queued for TTS
+00:26:31 | [Cloud] | Sentence Queued for TTS
+00:26:31 | [Cloud] | Sentence Queued for TTS
+00:26:31 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:26:33 | [Cloud] | movement status received: still while listening
+00:26:38 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:26:45 | HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+00:26:51 | [Cloud] | BLE disconnect event received
+00:26:51 | [Cloud] | ffplay audio process stopped
+00:26:51 | [Cloud] | TTS stop sentinel received
+00:26:51 | [Cloud] | Broadcast ended for Patrick
+00:26:52 | [Cloud] | Returnig the BLE scanning : time since disconnect : 1204.28ms
+00:26:52 | [Cloud] | BLE scan cycle started
+00:26:57 | [Cloud] | BLE scan cycle started
+00:27:02 | [Cloud] | BLE scan cycle started
+00:27:03 | [Supervisor | Quit signal received - stopping all channels
+00:27:03 | [Cloud] | Stop signal received
+00:27:03 | [Cloud] | Closing Audio process
+00:27:03 | [Cloud] | Stop command sent to TTS queue
+00:27:03 | [Cloud] | BLE Task cancelled
+00:27:03 | [Cloud] | icon cleared 
