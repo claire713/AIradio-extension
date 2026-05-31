@@ -9,10 +9,10 @@ Extension of an existing AI radio system with two implemented AI channels that d
 AIradio-extension/
 │
 ├── Al-Radio/          # The existing AI Radio codebase, extended with two new channels
-├── profile_Interface/ # Script to add and manage listener profiles
-├── MicroBit/          # Hex file to upload to the BBC Micro:Bit wearable
-├── Pico_code/         # PlatformIO project to upload to the Raspberry Pi Pico
-└── audio_samples/     # Royalty-free music clips used by the radio channels
+├── profile_Interface/ # Script to add and manage listener profiles for personalised content generation
+├── MicroBit/          # Hex file to upload to the BBC Micro:Bit wearable.
+├── Pico_code/         # PlatformIO project to upload to the Raspberry Pi Pico. Updated to include icon display for implemented Cloud and Local channels
+└── audio_samples/     # Cloud and Local TTS clips for comparison
 ```
 
-See the README inside each folder for more details.
+
