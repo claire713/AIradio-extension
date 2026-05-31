@@ -1,4 +1,4 @@
-# AI Radio — Added Channels
+# AI-Radio
 
 This repository accompanies the thesis. Full details of the project are provided
 in the thesis document.
